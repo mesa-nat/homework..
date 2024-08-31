@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(245, 219, 174, 0.87);
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+main{
+    display: flex;
+}
+.About{
+    margin: 50px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hi{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(186, 219, 219);
+    border-radius: 20px;
+}
+p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Section{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.Hello1{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 20px;
+}
+.Hello2{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(137, 43, 226, 0.671);
+    display: flex;
+    border-radius: 20px;
+}
+.Hello3{
+    height: 200px;
+    width: 300px;
+    background-color: rgba(137, 43, 226, 0.438);
+    display: flex;
+    border-radius: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+h3{
+    margin-top: 30px;
+}
+.hi img{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+}
+button{
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    right: 200px;
+    height: 20px;
+    width: 100px;
+}
